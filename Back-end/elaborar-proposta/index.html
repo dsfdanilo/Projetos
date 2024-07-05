@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Proposta</title>
+</head>
+<body>
+    <h1>Formulário de Proposta</h1>
+    <form action="/gerar_proposta" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="data">Data:</label>
+        <input type="text" id="data" name="data" required><br>
+
+        <label for="mes">Mês:</label>
+        <input type="text" id="mes" name="mes" required><br>
+
+        <label for="vendedor">Vendedor:</label>
+        <input type="text" id="vendedor" name="vendedor" required><br>
+
+        <button type="submit">Gerar Proposta</button>
+    </form>
+</body>
+</html>
